@@ -1,8 +1,7 @@
 <template>
     <div>
-        <h1>Hi {{account.user.firstName}}!</h1>
-        <p>You're logged in with Vue + Vuex & JWT!!</p>
-        <h3>Users from secure api end point:</h3>
+        <h3>Hi {{account.user.firstName}}!</h3>
+        <p>Bienvenidos al panel de control </p>
         <em v-if="users.loading">Loading users...</em>
         <span v-if="users.error" class="text-danger">ERROR: {{users.error}}</span>
         <ul v-if="users.items">
@@ -17,6 +16,7 @@
             <router-link to="/login">Logout</router-link>
         </p>
     </div>
+    
 </template>
 
 <script>

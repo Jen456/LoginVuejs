@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import HomePage from '../home/HomePage'
+
 import LoginPage from '../login/LoginPage'
 import RegisterPage from '../register/RegisterPage'
 
